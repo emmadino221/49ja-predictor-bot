@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: 49ja predictor bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python bot_2.py
