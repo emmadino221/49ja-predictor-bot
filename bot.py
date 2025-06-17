@@ -1,12 +1,10 @@
 
-
-
-
-
-
+import os
+import requests
+import logging
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-import requests
+
 
 BOT_TOKEN = "7775857418:AAFP54pCayBEBM19OpZXwdI0vknhHPt6Z7k"  # Replace this
 SUPABASE_URL = "https://qqfatvlkfawujvzgfxku.supabase.co"
